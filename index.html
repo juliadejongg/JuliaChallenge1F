@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="IXT-F Dashboard SpaceX - Challenge 1">
+    <meta name="author" content="Julia de Jong">
+
+    <link href="css/style.css" rel="stylesheet">
+
+     <!-- Pie chart -->
+     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+     
+    <!-- Weather chart -->
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</head>
+
+<body>
+    <header class="menu">
+        <img class="spacex" src="images/spacex2.png" alt="logo"/>
+    </header>
+    <div class="container">
+        <div class="item">
+            <div class="countdown-1">
+                <h1>COUNTDOWN TOT LANDING</h1>
+                <p id="countdown"></p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="pie-2">
+                <h1>VOORRAAD</h1>
+                <div id="pie" style="height: 300px; width: 100%; position: relative;"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="line-3">
+                <h1>AANTAL DRANKJES</h1>
+                <div id="lineChart" style="height: 300px; width: 100%; position: relative;"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="column-4">
+                <h1>AANTAL SNACKS</h1>
+                <div id="columnChart" style="height: 300px; width: 100%; position: relative;"></div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="weather-5">
+                <h1>WEERSVERWACHTING</h1>
+                <div id="weather" style="height: 300px; width: 100%; position: relative;"></div>
+            </div>
+        </div>  
+    </div>
+    <!-- Ik heb aparte JavaScript bestanden aangemaakt omdat ik dit overzichtelijker voor mezelf vindt-->
+    <script href="text/javascript" src="scripts/countdown.js"/></script>
+    <script href="text/javascript" src="scripts/weather.js"/></script>
+    <script href="text/javascript" src="scripts/pie.js"/></script>
+    <script href="text/javascript" src="scripts/column.js"/></script>
+    <script href="text/javascript" src="scripts/line.js"/></script>
+</body>
+</html>

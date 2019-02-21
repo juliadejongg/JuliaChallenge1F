@@ -21,11 +21,6 @@ body {
     padding: 0; 
 }
 
-h1{
-    font-size: 15px;
-    text-align: center;
-}
-
 .menu{
     background-color: white;
     position: fixed;
@@ -48,6 +43,15 @@ h1{
     flex-flow: column;
     width: 100%;
     margin: 10px auto;
+}
+
+h1{
+    font-size: 15px;
+    text-align: center;
+}
+
+p{
+    font-size: 7vw;
 }
 
 .countdown-1, .pie-2, .line-3, .column-4, .weather-5{

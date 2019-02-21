@@ -71,6 +71,7 @@ p{
     background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
 }
 
 .countdown-1 > h1{

@@ -22,7 +22,7 @@ body {
 }
 
 h1{
-    font-size: 15px;
+    font-size: 4vw;
     text-align: center;
 }
 
@@ -105,10 +105,6 @@ a.canvasjs-chart-credit{
         margin: 1%;
     }
 
-   h1{
-        font-size: 20px;
-    }
-
     #countdown{
         font-size: 45px;
     }
@@ -134,9 +130,6 @@ a.canvasjs-chart-credit{
 
 /*MacBook*/
 @media only screen and (min-width: 1200px) {
-    h1{
-        font-size: 25px;
-    }
 
     #countdown{
         font-size: 55px;
@@ -172,10 +165,6 @@ a.canvasjs-chart-credit{
     .container{
         max-width:2500px;
         margin: auto;
-    }
-
-    h1{
-        font-size: 35px;
     }
 
     #countdown{
